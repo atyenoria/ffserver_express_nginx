@@ -1,0 +1,10 @@
+  787  ffmpeg -f avfoundation -i "1" -pix_fmt nv12 -c:v mpeg2video http://localhost:8090/feed1.ffm
+
+    762  ffserver -f ffserver.conf &
+
+      584  ffmpeg -f avfoundation -list_devices true -i ""
+
+
+        583  mpv small.mp4
+
+        
